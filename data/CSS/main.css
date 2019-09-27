@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+
+.navbar {
+	overflow: hidden;
+	padding: 20px 0;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.main {
+	background-image: url("../Images/background.jpg");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.logo {
+	margin: 200px auto;
+	display: block;
+}
