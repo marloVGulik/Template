@@ -1,9 +1,10 @@
 body {
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
-	overflow: hidden;
 	background-image: url("../Images/background.jpg");
-	background-size: contain;
-	background-position: center 44%; 
+	background-size: 100%;
+	background-position: left 15%;
+	overflow: hidden;
 }
 
 .navbar {
@@ -16,8 +17,31 @@ body {
 	width: 100%;
 }
 .logo {
-	padding: 200px 0 500px 0;
+	padding: 200px 0 33px 0;
 	z-index: 10;
 	margin: 0 auto;
 	display: block;
+}
+.buttons {
+	height: 100px;
+	margin: 0 0 0 235px;
+}
+.buttons ul li {
+	text-align: center;
+	width: 16%;
+	display: inline-block;
+}
+.buttons ul li a span {
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	color: rgba(255, 255, 255, 0.6);
+}
+.buttons ul li a span svg {
+	width: 50%;
+	margin: auto;
+}
+.buttons ul li a span p {
+	margin: 12px;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.8);
 }
