@@ -5,6 +5,7 @@ body {
 	background-size: cover;
 	background-position: left -5.5%;
 	overflow: hidden;
+	text-decoration: none;
 }
 
 .navbar {
@@ -13,13 +14,37 @@ body {
 	z-index: -10;
 	width: 100%;
 	background-color: #FFFFFF;
+	height: auto;
 }
 .navbar ul {
-	margin: 0 40px 0 1105px;
+	padding: 0;
+	margin: 0 0 0 1153px;
 }
 .navbar ul li {
+	padding: 0;
+	margin-left: -5px;
 	display: inline-block;
-	padding: 6px 6px;
+	color: #FFFFFF;
+	width: 40px;
+	height: 40px;
+	background-color: #CCCCCC;
+}
+.navbar ul li a {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+}
+.navbar ul li a span {
+	color: #FFFFFF;
+}
+.normal svg {
+	padding: 30% 0 0 25%;
+}
+.twitter svg {
+	padding: 30% 0 0 31%;
+}
+.facebook svg {
+	padding: 30% 0 0 36%;
 }
 
 
