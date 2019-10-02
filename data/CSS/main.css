@@ -68,7 +68,7 @@ body {
 .buttons li {
 	text-align: center;
 	width: auto;
-	padding: 0 22.5px;
+	padding: 0 23px;
 	display: inline-block;
 }
 .buttons span {
@@ -80,7 +80,8 @@ body {
 	width: 50%;
 	margin: auto;
 }
-.buttons ul li a span p {
+.buttons p {
+	letter-spacing: 1.2px;
 	margin: 12px 0;
 	font-size: 15px;
 	color: rgba(255, 255, 255, 0.8);
